@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: space-between;
+    gap: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: oklch(29.74% .0362 281.74deg);
+    box-shadow: 0 0 10px 0 #000000;
+    margin-bottom: 50px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+a{
+    color: oklch(29.74% .0362 281.74deg);
+    text-decoration: none;
+}
+#SearchBar{
+    width: 700px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 50px;
+}
+.SearchButton{
+    position: absolute;
+    z-index: 2;
+    margin-top: 14px;
+    margin-left: 8px;
+    font-size: 23px;
+    background: transparent;
+    border: none;
+}
+#card{
+    display: flex;
+    width: max-content;
+    img{
+        height: 400px;
+        width: 1500px;
+    }
+    justify-content: center;
+    align-items: center;
+}
+.cardDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 350px;
+    background-color: #ffffff;
+    margin-right: 900px;
+    padding: 0 20px 0 20px;
+    justify-content: start;
+    align-items: start;
+    position: absolute;
+    button{
+        height: 50px;
+        background-color: rgb(64, 64, 248);
+        color: #ffffff;
+    }
+    h2{
+        display: inline;
+    }
+    border-radius: 4px;
+}
+.card{
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+.p2{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
+.card2{
+    background-color: #ffffff;
+    width: 1500px;
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: space-between;
+    gap: 20px;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+}
+.p{
+    display: inline;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin: 0 5px 0 5px;
+}
+h6{
+    display: inline;
+    font-size: 20px;
+    font-weight: 100;
+}
+.s1{
+    height: 455px;
+    width: 385px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(236, 235, 235);
+    border-radius: 20px;
+    gap: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-weight: 500;
+}
+.buttoncard2{
+    font-size: medium;
+    width: 200px;
+    height: 50px;
+    margin-top: 24px;
+    border-radius: 5px;
+    border-color: rgb(11, 11, 177);
+    background-color: rgb(222, 222, 255);
+    color: rgb(11, 11, 177);;
+}
+.a11{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    gap: 50px;
+}
+#a1{
+    margin: 0 60px 0 0;
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    font-size: 20px;
+}
+.a1:hover{
+    text-decoration: underline black;
+    background-color: rgb(235, 233, 233);
+    transition-duration: 1s;
+    font-size: 30px;
+    font-weight: 100;
+}
+#a2{
+   display: flex;
+   justify-content: start;
+   gap: 40px;
+}
+.a2{
+    border-radius: 20px;
+    width: 175px;
+    font-size: medium;
+    border-width: 5px;
+    background-color: #ffffff;
+}
+.a2:hover{
+    border-width: 1px;
+    transition: 1s;
+    font-weight: 1000;
+    background-color: rgb(102, 101, 101);
+    color: #ffffff;
+    box-shadow:0 0 10px 0 black ;
+}
+.a21:hover{
+    color: #ffffff;
+}
