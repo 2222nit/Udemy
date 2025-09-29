@@ -147,7 +147,7 @@ h1{
 .a11{
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
+    margin-left: 100px;
     gap: 50px;
 }
 #a1{
@@ -156,6 +156,7 @@ h1{
     justify-content: start;
     gap: 30px;
     font-size: 20px;
+    border-bottom:1px solid #c5c3c3;
 }
 .a1:hover{
     text-decoration: underline black;
@@ -187,3 +188,22 @@ h1{
 .a21:hover{
     color: #ffffff;
 }
+#c{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1600px;
+    align-items: center;
+    gap: 40px;
+    height: 350px;
+}
+#c10{
+    display: flex;
+    gap: 80px;
+    span{
+        img{
+            width: 100px;
+        }
+    }
+}
+
