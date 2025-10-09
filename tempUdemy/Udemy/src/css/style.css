@@ -383,3 +383,14 @@ h1{
         background-color: rgb(149, 43, 247);
     }
 }
+#phase5{
+    width: 100%;
+    background-color:  #f4f3f3;
+    display: flex;
+    justify-content: center;align-items: center;
+}
+.phase5{
+    display: flex;
+    justify-content: start;
+    width: 1480px;
+}
